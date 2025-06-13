@@ -1,0 +1,20 @@
+@use "sass:color";
+$white: #ffffff;
+$grey: #6f6f6f;
+$blue: #28a1cc;
+$light-grey: #53899e;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --color-primary: #{$white};
+  --color-secondary: #{$blue};
+  --color-tertiary: #{$grey};
+  --color-tertiary-light: #{$light-grey};
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
