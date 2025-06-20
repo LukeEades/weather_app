@@ -87,6 +87,7 @@ const App = () => {
             type="text"
             value={searchTerm}
             onChange={e => setSearchTerm(e.target.value)}
+            aria-label="city-searchbar"
           />
           <button type="submit" name="button">
             Find
